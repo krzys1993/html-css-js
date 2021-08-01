@@ -1,5 +1,9 @@
 body{
+    background: url("https://images.unsplash.com/photo-1602498456745-e9503b30470b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: lightcoral;
+    background-size: cover;
 }
 
 p{
@@ -13,4 +17,9 @@ div{
 #first-id{
     background-color: orangered;
     font-style: italic;
+}
+/*font: [font-style] [font-variant] [font-weight] [font-size] [font-family] */
+
+#second-id{
+    font: italics small-caps 600 20px Arial, sans serif;
 }
