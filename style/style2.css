@@ -4,6 +4,7 @@
     --menu-left: 160px;
     --line-color: #2F4F4F;
     --font-color: #9932CC;
+    --top-footer-font-color: #696969;
 }
 
 html, body{
@@ -69,6 +70,16 @@ header{
 
 }
 
+.left-header{
+    font-size: 12px;
+    color: var(--font-color);
+    font-weight: bold;
+    height: 250px;
+    width: 157px;
+    padding-top: 6px;
+    text-align: center;
+}
+
 .left ul{
     margin: 0;
     list-style: none;
@@ -96,6 +107,15 @@ header{
     margin-top: var(--header-height);
     margin-bottom: 24px;
     flex-direction: column;
+}
+
+h1{
+    padding-top: 15px;
+    font-size: 25px;
+    color: var(--font-color);
+    line-height: 150%;
+    padding-left: 15px;
+    margin-top: 0;
 }
 
 article{
@@ -127,4 +147,36 @@ article p{
 footer{
     position: relative;
     right: 0;
+    left: 0;
+    background-color: var(--header-footer-bg-color);
+    clear: both;
+    font-size: 11px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 8px 30px 16px;
+    margin-top: auto;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer ul li{
+    float: left;
+    margin-left: 12px;
+}
+
+footer ul li a{
+    color: #8FBC8F;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+.footer-copyright{
+    color: var(--top-footer-font-color);
+    margin-top: 25px;
 }
