@@ -9,3 +9,8 @@ p{
 div{
     font-size = 20px
 }
+
+#first-id{
+    background-color: orangered;
+    font-style: italic;
+}
