@@ -17,6 +17,10 @@ div{
 #first-id{
     background-color: orangered;
     font-style: italic;
+    border-width: 5px;
+    border-color: rgba(158, 169, 177, 0.33);
+    border-style: solid;
+    border-radius: 15px
 }
 /*font: [font-style] [font-variant] [font-weight] [font-size] [font-family] */
 
