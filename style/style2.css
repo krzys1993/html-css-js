@@ -14,7 +14,7 @@ html, body{
     flex-direction: column;
 }
 
-header{
+header {
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -92,7 +92,7 @@ header{
 
 .left a{
     font-size: 14px;
-    color: (var(--font-color);
+    color: var(--font-color);
     line-height: 150%;
     text-decoration: none;
 }
@@ -177,6 +177,6 @@ footer ul li a:hover{
 }
 
 .footer-copyright{
-    color: var(--top-footer-font-color);
+    color: var(--header-footer-font-color);
     margin-top: 25px;
 }
