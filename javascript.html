@@ -6,10 +6,11 @@
 </head>
 <body>
     Lorem ipsum cos tam
-    <p id="my-id">Przykładowy tekst</p>
+    <button type="button" onclick="alertTest()">Mój button</button>
 <script>
-    document.getElementById("my-id").innerHTML = "Inny tekst";
-    setTimeout( function() {alert('Alert po 3000ms');}, 3000 );
+    function alertTest(){
+    alert('test przycisku');
+    }
 </script>
 </body>
 </html>
