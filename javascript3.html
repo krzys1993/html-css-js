@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Foo bar!</p>
+    <button type="button" onclick="toggle()">Button</button>
+<script>
+    function toggle(){
+        let element = document.getElementsByTagName('p')[0];
+        if(element.innerHTML === 'Foo bar!'){
+            element.innerHTML = 'Bar Foo!';
+        } else {
+            element.innerHTML = 'Foo bar!';
+        }
+    }
+</script>
+</body>
+</html>
